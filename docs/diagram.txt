@@ -1,0 +1,9 @@
+[Başlat] --> [Seed Al]
+     |
+     v
+[Sayı Çift mi?] --EVET--> [n = n / 2]
+     |                       |
+   HAYIR                     v
+     |                  [Yeni Sayı] --> [Çıktı Ver]
+     v                       ^
+[n = 3n + 1] ----------------|

@@ -1,0 +1,13 @@
+BAŞLA
+  GİRDİ: Seed (Başlangıç Değeri)
+  EĞER Seed <= 0 İSE HATA DÖNDÜR
+
+  FONKSİYON NextInt():
+    EĞER Sayı ÇİFT İSE:
+       Sayı = Sayı / 2
+    DEĞİLSE (Sayı TEK İSE):
+       Sayı = (3 * Sayı) + 1
+
+    DÖNDÜR Sayı
+  FONKSİYON BİTİR
+BİTİR

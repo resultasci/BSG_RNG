@@ -1,0 +1,31 @@
+TEST VE İSTATİSTİK RAPORU
+--------------------------------------------------
+Proje: Collatz Random Number Generator (CRNG)
+Tarih: 30.12.2025
+Test Edilen Seed Değeri: 27
+
+1. GENEL BAKIŞ
+--------------------------------------------------
+Collatz algoritması, Seed 27 kullanıldığında oldukça yüksek bir varyasyon (değişkenlik) göstermiştir. Sayı dizisi hızla büyüyüp küçülerek kaotik bir davranış sergilemiştir.
+
+2. SAYISAL VERİLER (Seed: 27 için)
+--------------------------------------------------
+Toplam Adım Sayısı (1'e ulaşana kadar): 111 Adım
+Ulaşılan En Yüksek Değer (Peak): 9232
+Başlangıç Değeri: 27
+Bitiş Değeri: 1 (Döngüye giriş)
+
+3. PARİTE (ÇİFT/TEK) DAĞILIMI
+--------------------------------------------------
+Üretilen dizideki sayıların karakteristiği:
+- Çift Sayılar: 70 adet (~%63)
+- Tek Sayılar:  41 adet (~%37)
+* Not: Collatz algoritması doğası gereği çift sayılara daha meyillidir (n/2 işlemi), bu da ideal bir yazı-tura (50/50) rastgeleliğinden uzak olduğunu gösterir.
+
+4. ÖRNEK ÇIKTI DİZİSİ (İlk 15 Adım)
+--------------------------------------------------
+27 -> 82 -> 41 -> 124 -> 62 -> 31 -> 94 -> 47 -> 142 -> 71 -> 214 -> 107 -> 322 -> 161 -> 484 ...
+
+5. SONUÇ VE YORUM
+--------------------------------------------------
+Bu test, algoritmanın kısa vadeli simülasyonlarda ve oyun programlamada (canavarın nereye hareket edeceği vb.) kullanılabileceğini, ancak finansal veya askeri kriptografi için uygun olmadığını (yüksek öngörülebilirlik ve çift sayı baskınlığı nedeniyle) istatistiksel olarak kanıtlamıştır.
